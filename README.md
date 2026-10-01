@@ -1,6 +1,7 @@
 #  Evaluating the Impact of GDP per Capita on Global COVID-19 Outcomes (`COVID19-STUDY`)
 
-An data science project analyzing the relationship between economic status and COVID-19 outcomes (vaccination rates, total cases, and total deaths) using public global health data.
+A data science project analyzing the relationship between economic status and COVID-19 outcomes (vaccination rates, total cases, and total deaths) using public global health data.
+(2026 - Basic Toolkit for Research (IDS-241) Mini Project by Eshika, Rhea, Devika, Vishal and Teertha)
 
 
 ##  Project Overview
