@@ -30,6 +30,6 @@ COVID19-STUDY/
 | :--- | :--- | :--- |
 | **Rhea C.** | Importing and Cleaning Data, README.md | [@rheachoy](https://github.com/rheachoy) |
 | **Devika** | ----------------------- | ----------------------- |
-| **Vishal** | Data Visualization (matplotlib/ seaborn) | [vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) |
+| **Vishal** | Data Visualization (matplotlib/ seaborn) | [@vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) |
 | **Eshika** | ----------------------- | ----------------------- |
 | **Teertha** | ---------------------- | ----------------------- |
