@@ -19,6 +19,7 @@ COVID19-STUDY/
 │   ├── raw_data.csv    
 │   └── data_preview.png       
 │
+├── stats_analysis.py         
 ├── README.md                 
 └── LICENSE
 
@@ -31,5 +32,5 @@ COVID19-STUDY/
 | **Rhea C.** | Importing and Cleaning Data, README.md | [@rheachoy](https://github.com/rheachoy) |
 | **Devika** | ----------------------- | ----------------------- |
 | **Vishal** | Data Visualization (matplotlib/ seaborn) | [@vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) |
-| **Eshika** | ----------------------- | ----------------------- |
+| **Eshika** | Statistical Analysis & Hypothesis Testing  | [@EshikaNaik](https://github.com/EshikaNaik) |
 | **Teertha** | ---------------------- | ----------------------- |
