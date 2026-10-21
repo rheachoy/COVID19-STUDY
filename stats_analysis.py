@@ -84,3 +84,33 @@ if __name__ == "__main__":
         Mean="mean", Median="median", SD="std", Count="count"
     )
     print("\nQuartile Vaccination Breakdown:\n", quartile_summary)
+
+    def run_multivariate_regression(df):
+    """Multivariate OLS Regression controlling for age confounding."""
+    print("\n" + "="*50)
+    print("3. MULTIVARIATE OLS REGRESSION (CONFOUNDER ANALYSIS)")
+    print("="*50)
+    
+    reg_df = df.dropna(subset=[
+        "total_deaths_per_million", "gdp_per_capita", "median_age", "hospital_beds_per_thousand"
+    ]).copy()
+    
+    reg_df["log_gdp"] = np.log(reg_df["gdp_per_capita"])
+    
+    X = reg_df[["log_gdp", "median_age", "hospital_beds_per_thousand"]]
+    X = sm.add_constant(X)
+    y = reg_df["total_deaths_per_million"]
+    
+    model = sm.OLS(y, X).fit()
+    print(f"R-squared: {model.rsquared:.4f} | F-statistic p-val: {model.f_pvalue:.4e}\n")
+    print(model.summary().tables[1])
+
+def execute_all():
+    df = load_data()
+    run_correlation_suite(df)
+    run_distribution_and_anova(df)
+    run_multivariate_regression(df)
+
+if __name__ == "__main__":
+    execute_all()
+    
