@@ -58,7 +58,7 @@ COVID19-STUDY/
 | **Devika** | Python Script displaying study findings and Graphs | [@DevikaBorkar](https://github.com/DevikaBorkar) |
 | **Vishal** | Data Visualization (matplotlib/ seaborn) | [@vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) |
 | **Eshika** | Statistical Analysis & Hypothesis Testing  | [@EshikaNaik](https://github.com/EshikaNaik) |
-| **Teertha** |Editor and Documentation Contributor | [@Teertha024](https://github.com/teertha024) |
+| **Teertha** |Editor and CONTRIBUTION.md | [@Teertha024](https://github.com/teertha024) |
 
 
 For detailed line additions and deletions -> [click here](https://github.com/rheachoy/COVID19-STUDY/graphs/contributors)
