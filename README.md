@@ -52,4 +52,8 @@ COVID19-STUDY/
 | **Devika** | Python Script displaying study findings and Graphs | [@DevikaBorkar](https://github.com/DevikaBorkar) |
 | **Vishal** | Data Visualization (matplotlib/ seaborn) | [@vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) |
 | **Eshika** | Statistical Analysis & Hypothesis Testing  | [@EshikaNaik](https://github.com/EshikaNaik) |
-| **Teertha** | ---------------------- | ----------------------- |
+| **Teertha** | ---------------------- | [@Teertha024](https://github.com/teertha024) |
+
+![Contributor](https://img.shields.io/github/contributors/rheachoy/COVID19-STUDY)
+
+![Repo Activity](https://github-readme-stats.vercel.app/api?username=rheachoy&repo=COVID19-STUDY&show_icons=true&theme=tokyonight)
