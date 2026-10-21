@@ -6,6 +6,7 @@ A data science project analyzing the relationship between economic status and CO
 
 ##  Project Overview
 This repository investigates whether higher national wealth directly translates to higher vaccination coverage and better pandemic metrics. Using data fetched directly from **Our World in Data (OWID)**, the project executes automated data processing pipelines, statistical analysis, and machine learning models.
+link to website with raw dataset - [docs.owid.io](https://docs.owid.io/projects/etl/api/covid/)
 
 
 ##  Repository 
