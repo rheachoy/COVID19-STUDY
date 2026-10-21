@@ -59,7 +59,7 @@ if __name__ == "__main__":
         
         print(f"\nRelationship: GDP per Capita vs. {label}")
         print(f"  - Pearson  r : {r_val:7.4f} (p-value: {p_val_p:.4e})")
-        print(f"  - Spearman \u03c1 : {rho_val:7.4f} (p-value: {p_val_s:.4e})"
+        print(f"  - Spearman \u03c1 : {rho_val:7.4f} (p-value: {p_val_s:.4e})")
 
         def run_distribution_and_anova(df):
     """Distribution checks and One-Way ANOVA across wealth quartiles."""
@@ -113,4 +113,3 @@ def execute_all():
 
 if __name__ == "__main__":
     execute_all()
-    
