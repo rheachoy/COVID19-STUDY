@@ -42,7 +42,7 @@ COVID19-STUDY/
 | Name | Roll | Username |
 | :--- | :--- | :--- |
 | **Rhea C.** | Importing and Cleaning Data, README.md | [@rheachoy](https://github.com/rheachoy) |
-| **Devika** | ----------------------- | ----------------------- |
+| **Devika** | Python Script displaying study findings and Graphs | [@DevikaBorkar](https://github.com/DevikaBorkar) |
 | **Vishal** | Data Visualization (matplotlib/ seaborn) | [@vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) |
 | **Eshika** | Statistical Analysis & Hypothesis Testing  | [@EshikaNaik](https://github.com/EshikaNaik) |
 | **Teertha** | ---------------------- | ----------------------- |
