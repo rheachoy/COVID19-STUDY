@@ -4,10 +4,13 @@ A data science project analyzing the relationship between economic status and CO
 (2026 - Basic Toolkit for Research (IDS-241) Mini Project by Eshika, Rhea, Devika, Vishal and Teertha)
 
 
+
+
 ##  Project Overview
 This repository investigates whether higher national wealth directly translates to higher vaccination coverage and better pandemic metrics. Using data fetched directly from **Our World in Data (OWID)**, the project executes automated data processing pipelines, statistical analysis, and machine learning models.
 link to website with raw dataset - [docs.owid.io](https://docs.owid.io/projects/etl/api/covid/)
 
+![data preview image](data/data_preview.png)
 
 ##  Repository 
 
@@ -37,6 +40,7 @@ COVID19-STUDY/
 └── LICENSE
 
 ```
+![vaccination_timeline_preview_image](images/images/vaccination_timeline.png)
 
 ## Team Roles & Usernames
 
