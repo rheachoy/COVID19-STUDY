@@ -35,10 +35,7 @@ def load_data():
     print(f"Data ingested: {len(stats_df)} countries available for hypothesis evaluation.")
     return stats_df
 
-if __name__ == "__main__":
-    df = load_data()
-
-    def run_correlation_suite(df):
+def run_correlation_suite(df):
     """Bivariate correlation analysis (Pearson & Spearman)."""
     print("\n" + "="*50)
     print("1. BIVARIATE CORRELATION ANALYSIS")
@@ -61,7 +58,7 @@ if __name__ == "__main__":
         print(f"  - Pearson  r : {r_val:7.4f} (p-value: {p_val_p:.4e})")
         print(f"  - Spearman \u03c1 : {rho_val:7.4f} (p-value: {p_val_s:.4e})")
 
-        def run_distribution_and_anova(df):
+def run_distribution_and_anova(df):
     """Distribution checks and One-Way ANOVA across wealth quartiles."""
     print("\n" + "="*50)
     print("2. DISTRIBUTION NORMALITY & ONE-WAY ANOVA")
@@ -85,7 +82,7 @@ if __name__ == "__main__":
     )
     print("\nQuartile Vaccination Breakdown:\n", quartile_summary)
 
-    def run_multivariate_regression(df):
+def run_multivariate_regression(df):
     """Multivariate OLS Regression controlling for age confounding."""
     print("\n" + "="*50)
     print("3. MULTIVARIATE OLS REGRESSION (CONFOUNDER ANALYSIS)")
@@ -105,11 +102,8 @@ if __name__ == "__main__":
     print(f"R-squared: {model.rsquared:.4f} | F-statistic p-val: {model.f_pvalue:.4e}\n")
     print(model.summary().tables[1])
 
-def execute_all():
+if __name__ == "__main__":
     df = load_data()
     run_correlation_suite(df)
     run_distribution_and_anova(df)
     run_multivariate_regression(df)
-
-if __name__ == "__main__":
-    execute_all()
