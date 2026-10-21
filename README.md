@@ -18,7 +18,19 @@ COVID19-STUDY/
 │   ├── covid_data.xlsx
 │   ├── raw_data.csv    
 │   └── data_preview.png       
-│
+├── images/
+│   ├── correlation_heatmap.png        
+│   ├── gdp_vs_morality.png
+│   ├── gdp_vs_vaccination.png
+│   ├── vaccination_by_quartile.png        
+│   └── vaccination_timeline.png
+├── notebooks/
+│   └── covid_data_visulaization.ipynb
+├── graph1.py
+├── graph2.py
+├── graph3.py
+├── graph-3-4.py
+├── graph5.py
 ├── stats_analysis.py         
 ├── README.md                 
 └── LICENSE
