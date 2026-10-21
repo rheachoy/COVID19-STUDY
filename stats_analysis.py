@@ -60,3 +60,27 @@ if __name__ == "__main__":
         print(f"\nRelationship: GDP per Capita vs. {label}")
         print(f"  - Pearson  r : {r_val:7.4f} (p-value: {p_val_p:.4e})")
         print(f"  - Spearman \u03c1 : {rho_val:7.4f} (p-value: {p_val_s:.4e})"
+
+        def run_distribution_and_anova(df):
+    """Distribution checks and One-Way ANOVA across wealth quartiles."""
+    print("\n" + "="*50)
+    print("2. DISTRIBUTION NORMALITY & ONE-WAY ANOVA")
+    print("="*50)
+    
+    _, p_raw = stats.shapiro(df["gdp_per_capita"])
+    print(f"Shapiro-Wilk Test (Raw GDP p-value): {p_raw:.4e} (Non-normal)")
+    
+    groups = [
+        group["people_fully_vaccinated_per_hundred"].dropna().values 
+        for _, group in df.groupby("income_quartile", observed=False)
+    ]
+    
+    f_stat, f_p_value = stats.f_oneway(*groups)
+    print("\nOne-Way ANOVA: Vaccination Rate Across Wealth Quartiles")
+    print(f"  - F-Statistic: {f_stat:.4f}")
+    print(f"  - p-value    : {f_p_value:.4e}")
+    
+    quartile_summary = df.groupby("income_quartile", observed=False)["people_fully_vaccinated_per_hundred"].agg(
+        Mean="mean", Median="median", SD="std", Count="count"
+    )
+    print("\nQuartile Vaccination Breakdown:\n", quartile_summary)
