@@ -43,7 +43,13 @@ COVID19-STUDY/
 └── LICENSE
 
 ```
+## Dependencies
 
+* **Language:** Python
+* **Libraries and tool**
+  * Data Processing : Python
+  * Visualization: 'matplotlib', 'seaborn'
+  * Environment: 'Jupyter Notebook'
 ## Team Roles & Usernames
 
 | Name | Roll | Username |
@@ -54,6 +60,14 @@ COVID19-STUDY/
 | **Eshika** | Statistical Analysis & Hypothesis Testing  | [@EshikaNaik](https://github.com/EshikaNaik) |
 | **Teertha** | ---------------------- | [@Teertha024](https://github.com/teertha024) |
 
-![Contributor](https://img.shields.io/github/contributors/rheachoy/COVID19-STUDY)
 
-![Repo Activity](https://github-readme-stats.vercel.app/api?username=rheachoy&repo=COVID19-STUDY&show_icons=true&theme=tokyonight)
+For detailed line additions and deletions -> [click here](https://github.com/rheachoy/COVID19-STUDY/graphs/contributors)
+
+## Data Sources
+* Our World in Data (OWID) - [LINK](https://docs.owid.io/projects/etl/api/covid/)
+
+## Clone our repository!!
+'''bash
+git clone [https://github.com/rheachoy/COVID19-STUDY.git](https://github.com/rheachoy/COVID19-STUDY.git)
+cd COVID19-STUDY
+'''
