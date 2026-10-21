@@ -67,7 +67,7 @@ For detailed line additions and deletions -> [click here](https://github.com/rhe
 * Our World in Data (OWID) - [LINK](https://docs.owid.io/projects/etl/api/covid/)
 
 ## Clone our repository!!
-'''bash
-git clone [https://github.com/rheachoy/COVID19-STUDY.git](https://github.com/rheachoy/COVID19-STUDY.git)
-cd COVID19-STUDY
-'''
+```bash  
+git clone [https://github.com/rheachoy/COVID19-STUDY.git](https://github.com/rheachoy/COVID19-STUDY.git)  
+cd COVID19-STUDY  
+```
