@@ -3,7 +3,8 @@
 A data science project analyzing the relationship between economic status and COVID-19 outcomes (vaccination rates, total cases, and total deaths) using public global health data.
 (2026 - Basic Toolkit for Research (IDS-241) Mini Project by Eshika, Rhea, Devika, Vishal and Teertha)
 
-
+![vaccination_timeline_preview_image](images/images/vaccination_timeline.png)
+<sub>Image by Vishal Gaonkar [@vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) </sub>
 
 
 ##  Project Overview
@@ -11,6 +12,8 @@ This repository investigates whether higher national wealth directly translates 
 link to website with raw dataset - [docs.owid.io](https://docs.owid.io/projects/etl/api/covid/)
 
 ![data preview image](data/data_preview.png)
+<sub>Image by Vishal Gaonkar [@vishal gaonkar27](https://github.com/vishalgaonkar739-rgb) </sub>
+
 
 ##  Repository 
 
@@ -40,7 +43,6 @@ COVID19-STUDY/
 └── LICENSE
 
 ```
-![vaccination_timeline_preview_image](images/images/vaccination_timeline.png)
 
 ## Team Roles & Usernames
 
